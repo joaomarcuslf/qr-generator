@@ -11,7 +11,7 @@ build:
 
 build-service:
 	docker run -d --name qr-generator \
-		-p 5001:5001 \
+		-p 5002:5002 \
 		--restart=always \
 		qr-generator
 
